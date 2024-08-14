@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333333;
+}
+
+.header-image {
+    background-image: url('your-image.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+}
+
+.header-image .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.header-image .header-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-image h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.header-image p {
+    font-size: 1.25rem;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.card-deck .card {
+    transition: transform 0.3s ease;
+}
+
+.card-deck .card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #343a40;
+}
